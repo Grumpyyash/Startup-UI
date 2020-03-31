@@ -1,1 +1,1 @@
-# my-startup
+TinDog Starting Files
