@@ -147,3 +147,22 @@ p {
 .contact-mail {
   color: blue;
 }
+
+#dark-div{
+   text-align: center;
+   margin-top: 100px;
+}
+
+.dark-button{
+   font-weight: bold;
+   position: inherit;
+   border: 3px solid grey;
+   width: 25%;
+   border-radius: 15px;
+   transition: 0.6s;
+}
+
+.dark-button:hover{
+   background-color: black;
+   color: white;
+}
