@@ -115,6 +115,7 @@ p {
   padding: 3% 2% 3% 2%;
 }
 .need {
+  color:rgb(9, 9, 171);
   font-weight: bold;
 }
 @media (max-width: 900px)  {
@@ -137,6 +138,7 @@ p {
   text-align: center;
 }
 .cta-heading {
+  
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.5rem;
