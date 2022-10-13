@@ -115,9 +115,9 @@ p {
   padding: 3% 2% 3% 2%;
 }
 .need {
-  font-weight: bold;
+  font-weight: bolder;
 }
-@media (max-width: 900px)  {
+@media (max-width: 850px)  {
   .h1 {
     text-align: center;
   }
@@ -140,6 +140,7 @@ p {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.5rem;
+  margin: auto;
 }
 #footer {
   padding: 3% 10% 3% 10%;
