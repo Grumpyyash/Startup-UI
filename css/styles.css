@@ -88,9 +88,9 @@ p {
 }
 
 .testimonial-image {
-  width: 10%;
   border-radius: 100%;
   margin: 3%;
+  width: 10%;
 }
 .carousel-item {
   padding: 3% 10% 3% 10%;
