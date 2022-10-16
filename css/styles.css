@@ -132,7 +132,7 @@ p {
 }
 #cta {
   background-color: #ff4c68;
-  color: white;
+  color: #FFF;
   padding: 3% 10% 3% 10%;
   text-align: center;
 }
@@ -151,7 +151,7 @@ p {
   text-decoration: none;
 }
 .contact-mail {
-  color: blue;
+  color: #0000FF;
 }
 
 #dark-div{
