@@ -61,7 +61,7 @@ a.nav-link:hover{
   margin: 5% 3% 5% 0;
 }
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 #features {
   padding: 3% 10% 3% 10%;
@@ -103,9 +103,9 @@ p {
 }
 
 .testimonial-image {
-  width: 10%;
   border-radius: 100%;
   margin: 3%;
+  width: 10%;
 }
 .carousel-item {
   padding: 3% 10% 3% 10%;
@@ -147,7 +147,7 @@ p {
 }
 #cta {
   background-color: #ff4c68;
-  color: white;
+  color: #FFF;
   padding: 3% 10% 3% 10%;
   text-align: center;
 }
@@ -164,6 +164,9 @@ p {
 .contact {
   padding: 10px 15px;
   text-decoration: none;
+}
+.contact-mail {
+  color: #0000FF;
 }
 #dark-div{
    text-align: center;
