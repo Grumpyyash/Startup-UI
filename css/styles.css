@@ -1,200 +1,241 @@
-.dark-mode{
-   background-color: #222;
-   transition: 0.5s;
- }
+.dark-mode {
+    background-color: #222;
+    transition: 0.5s;
+}
 
 body {
-   font-family:
-   -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
-    Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-   line-height: 1.4;
+    font-family:
+        -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
+        Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    line-height: 1.4;
 }
 
 #title {
-  background-color: #ff4c68;
+    background-color: #ff4c68;
 }
+
 .h1 {
-  font-size: 4rem;
-  line-height: 1.5;
-  color: #E5E7E9  ;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: #E5E7E9;
 }
+
 .container-fluid {
-  padding: 3% 10% 6% 10% ;
+    padding: 3% 10% 6% 10%;
 }
+
 .iphone {
-  padding-left: 10%;
-  padding-top: 5%;
-  width: 60%;
-  transform: rotate(5deg);
-  position: absolute;
-  right: 17%;
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 60%;
+    transform: rotate(5deg);
+    position: absolute;
+    right: 17%;
 }
 
 button.btn.btn-dark.btn-lg.download-button:hover {
-  color: #212529 !important;
-  background-color: #fef9fa !important;
-  border-color: #fef9fa !important;
-}
-.navabar-brand {
-  color: white;
-  font-size: 2rem;
-  font-family: "Ubuntu";
-}
-.navabar-brand:hover {
-  color: black !important;
-  text-decoration: none;
+    color: #212529 !important;
+    background-color: #fef9fa !important;
+    border-color: #fef9fa !important;
 }
 
-a.nav-link:hover{
-  color: black !important;
+.navabar-brand {
+    color: white;
+    font-size: 2rem;
+    font-family: "Ubuntu";
+}
+
+.navabar-brand:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    color: black !important;
 }
 
 .navbar {
-  padding: 0 0 3.5rem;
+    padding: 0 0 3.5rem;
 }
+
 .nav-item {
-  padding-left: 18px;
-  padding-right: 18px;
-  font-size: 1.2rem;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 1.2rem;
 }
+
 .download-button {
-  margin: 5% 3% 5% 0;
+    margin: 5% 3% 5% 0;
 }
+
 .nav-link {
-  font-size: 1.3rem;
+    font-size: 1.3rem;
 }
+
 #features {
-  padding: 3% 10% 3% 10%;
-  position: relative;
-  z-index: 1;
-  background-color: white;
+    padding: 3% 10% 3% 10%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
 }
+
 .features-box {
-  text-align: center;
-  padding: 5%;
+    text-align: center;
+    padding: 5%;
 }
+
 h3 {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 .test {
-  color: white;
-  font-weight: bold;
-  padding: 0 10% 0 10%;
+    color: white;
+    font-weight: bold;
+    padding: 0 10% 0 10%;
 }
+
 p {
-  color: grey;
+    color: grey;
 }
+
 .fas {
-  color: #45B39D;
-  padding-bottom: 2rem;
+    color: #45B39D;
+    padding-bottom: 2rem;
 }
+
 .fas:hover {
-  color: #ff4c68;
+    color: #ff4c68;
 }
+
 #testimonials {
 
-  text-align: center;
-  background-color: #45B39D;
+    text-align: center;
+    background-color: #45B39D;
 }
+
 .testimonial-text {
-  color: white;
-  font-weight: bold;
-  padding: 0 10% 0 10%;
+    color: white;
+    font-weight: bold;
+    padding: 0 10% 0 10%;
 }
 
 .testimonial-image {
-  border-radius: 100%;
-  margin: 3%;
-  width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+    width: 10%;
 }
+
 .carousel-item {
-  padding: 3% 10% 3% 10%;
+    padding: 3% 10% 3% 10%;
 }
+
 #press {
-  background-color: #45B39D;
-  text-align: center;
-  padding-bottom: 20px;
+    background-color: #45B39D;
+    text-align: center;
+    padding-bottom: 20px;
 }
+
 .press-logo {
-  width: 10%;
-  margin: 5px 20px 20px 50px;
+    width: 10%;
+    margin: 5px 20px 20px 50px;
 }
+
 #pricing {
-  padding: 3% 10% 3% 10%;
-  text-align: center;
+    padding: 3% 10% 3% 10%;
+    text-align: center;
 }
+
 .card {
-  text-align: center;
+    text-align: center;
 }
+
 .price-col {
-  padding: 3% 2% 3% 2%;
+    padding: 3% 2% 3% 2%;
 }
+
 .need {
-  font-weight: bolder;
+    font-weight: bolder;
 }
-@media (max-width: 850px)  {
-  .h1 {
-    text-align: center;
-  }
-  .iphone {
-    position: static;
-    transform: rotate(0);
 
-  }
-  #title {
-    text-align: center;
-  }
+@media (max-width: 850px) {
+    .h1 {
+        text-align: center;
+    }
+
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
 }
+
 #cta {
-  background-color: #ff4c68;
-  color: #FFF;
-  padding: 3% 10% 3% 10%;
-  text-align: center;
+    background-color: #ff4c68;
+    color: #FFF;
+    padding: 3% 10% 3% 10%;
+    text-align: center;
 }
+
 .cta-heading {
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.5rem;
-  margin: auto;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    margin: auto;
 }
+
 #footer {
-  padding: 3% 10% 3% 10%;
-  text-align: center;
+    padding: 3% 10% 3% 10%;
+    text-align: center;
 }
+
 .contact {
-  padding: 10px 15px;
-  text-decoration: none;
+    padding: 10px 15px;
+    text-decoration: none;
 }
+
 .contact-mail {
-  color: #0000FF;
-}
-#dark-div{
-   text-align: center;
-   margin-top: 100px;
+    color: #0000FF;
 }
 
-.dark-button{
-   font-weight: bold;
-   position: inherit;
-   border: 3px solid grey;
-   width: 25%;
-   border-radius: 15px;
-   transition: 0.6s;
+#modes {
+    margin-top: 100px;
 }
 
-.dark-button:hover{
-   background-color: black;
-   color: white;
+#dark-div,
+#random-div {
+    text-align: center;
+}
+
+.dark-button {
+    font-weight: bold;
+    position: inherit;
+    border: 3px solid grey;
+    border-radius: 15px;
+    height: 1.325rem;
+    width: 1.325rem;
+    transition: 0.6s;
+    padding-inline: 10px;
+    margin-left: 1em;
+    margin-right: 0.25em;
+}
+
+.dark-button:hover {
+    background-color: black;
+    color: white;
 }
 
 a:hover {
-  color: #ff4c68 !important;
+    color: #ff4c68 !important;
 
 }
+
 footer a {
-  color: #45B39D !important;
+    color: #45B39D !important;
 }
 
 footer a:hover {
-  color: #ff4c68 !important;
+    color: #ff4c68 !important;
 }
