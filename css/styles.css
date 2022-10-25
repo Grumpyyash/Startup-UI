@@ -1,5 +1,5 @@
 .dark-mode{
-   background-color: rgb(32, 32, 32);
+   background-color: rgb(5, 5, 5);
    transition: 0.5s;
  }
 
@@ -25,7 +25,7 @@ body {
   padding-left: 10%;
   padding-top: 5%;
   width: 60%;
-  transform: rotate(5deg);
+  transform: rotate(10deg);
   position: absolute;
   right: 17%;
 }
