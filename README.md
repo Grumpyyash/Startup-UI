@@ -101,7 +101,7 @@ Once you have completed these steps, you are ready to start contributing by chec
 
 ### 6. Create a new branch :bangbang:
 
-Whenever you are going to make contribution. Please create separate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
+Whenever you are going to make contribution, please create a separate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
 
 ```sh
 # It will create a new branch with name Branch_Name and will switch to that branch.
